@@ -1,0 +1,4 @@
+name: trutien
+recipe: lemp
+config:
+  webroot: .
