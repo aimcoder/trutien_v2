@@ -1,0 +1,82 @@
+.qreg-main{padding:30px 30px 20px;line-height:1.5;color:#373737}
+.qreg-agree a{color:#373737; text-decoration:underline}
+.qreg-main,.qreg-input{font-size:14px;}
+.qreg-agree{font-size:12px; margin:0 0 8px;}
+
+.qreg_full_tip{ margin:50px 0 8px; font-size:12px; color:#f00;}
+/*tip*/
+.qreg-tip,.qreg-smscaptcha-tip{ position:absolute;top:98px;left:0;color:#9b9b9b;font-size: 12px;}
+.qreg-core-phone .qreg-tip{ top:120px;}
+.qreg-tip-error{color:#ed4747 !important; padding-left:18px; background:url(../img/icon_tip_error.png) 0 2px no-repeat;}
+/*input*/
+.qreg-input-label{display:none}
+.qreg-input-wrap{ position:relative; background-color:#fff;background-position:  5px center; background-repeat: no-repeat;padding-left: 46px;border:1px solid #d5d5d5;}
+
+.qreg-input-ph,.qreg-placeholder{ position:absolute;top:8px;left:46px;color:#999; cursor:text}
+.qreg-input{ border:none;width:100%;height:38px; outline:none;box-sizing:border-box;line-height: 38px}
+.qreg-field-focus .qreg-input{border-color:#333}
+.qreg-field-error .qreg-input{border-color:#ed4747;}
+/*checkbox*/
+.qreg-cb input{ vertical-align:-2px;margin-right:5px;}
+.qreg-cb-label{color:#999999}
+.qreg-cb-label a{ text-decoration:underline}
+/*button*/
+.qreg-btn-reg,
+.qreg-btn-bind,
+.qreg-btn-tobind,.qreg-btn-tobind_email,
+.qreg-btn-smscaptcha-submit,.qreg-btn-phone-submit,
+.qreg-btn-back{background:#282828;font-size:16px;color:#fff;display:block;text-align:center;line-height:40px; text-decoration:none;}
+.qreg-btn-smscaptcha-submit{ margin-top:120px;}
+.qreg-btn-code{ position:absolute;right:-133px;top:0;background:#ed4747;color:#fff;font-size:12px;width:125px; text-align:center;line-height:38px; text-decoration:none;}
+/*icon*/
+.qreg-ico{display:none;position:absolute;right:0px;top:1px;width:38px;height:38px;background:#d5d5d5 url(../img/qreg_icon.png) no-repeat;}
+.qreg-field-error .qreg-ico{display:block;background-color:#ef5a5a;background-position:-39px 0;}
+.qreg-field-right .qreg-ico{display:block;background-color:#48b854;}
+/*layout*/
+.qreg-core,.qreg-bind{position:relative}
+.qreg-bind .qreg-tip{ top:90px;}
+.qreg-bind .qreg-btns{ margin-top:30px;}
+.qreg-field{position:relative;margin-bottom:8px;}
+.qreg-field-phonecode,.qreg-field-emailcode{padding-right:133px;}
+.qreg-field-phonecode{ margin-bottom:66px;}
+.qreg-field-phonecode .qreg-ico{ right:134px;}
+
+.qreg-imgcode-pop{padding:5px;position:absolute;top:33px;left:0; border:1px solid #CCC;background:#fff;display:none}
+.qreg-imgcode-pop img{width:140px}
+.qreg-imgcode-pop a{display:block; text-align:center;color:#000;}
+.qreg-pop-captcha{padding:5px;position:absolute;top:33px;left:0; border:1px solid #CCC;background:#fff;display:none}
+.qreg-pop-captcha img{width:140px}
+.qreg-pop-captcha a{display:block; text-align:center;color:#000;}
+
+.qreg-suc,.qreg-bind-suc{ color:#8f9199}
+.qreg-p1{ margin-bottom:10px; font-size:24px; text-align:center;}
+.qreg-p2{}
+.qreg-p3{color:#e12828;height:50px;}
+.qreg-p4{color:#e12828;margin-bottom:10px;}
+.qreg-p5{ color:#e12828; text-align: center; margin-top: 10px; margin-bottom: 10px; }
+
+.qreg-field-smscaptcha{padding-right:120px;}
+.qreg-smscaptcha-img{height:38px;position:absolute;right:-120px;top:0; cursor:pointer;}
+.qreg-btn-smscaptcha{ position:absolute;right:40px;top:40px;}
+.qreg-core-phone,.qreg-core-smscaptcha{ position:relative; }
+.qreg-core-phone_t{ margin-bottom:8px; font-size:12px; color:#8f9199;}
+/* input */
+.qreg-input{}
+.qreg-field-account .qreg-input-wrap{background-image: url(../img/icon_account.png)}
+.qreg-field-password .qreg-input-wrap{background-image: url(../img/icon_password.png)}
+.qreg-field-email .qreg-input-wrap{background-image: url(../img/41456832978443.png)}
+.qreg-field-captcha .qreg-input-wrap{background-image: url(../img/41456832978107.png)}
+.qreg-field-phonecode .qreg-input-wrap{background-image: url(../img/icon_code.png)}
+.qreg-field-emailcode .qreg-input-wrap{background-image: url(../img/41456832978107.png)}
+.qreg-field-smscaptcha .qreg-input-wrap{background-image: url(../img/icon_code.png)}
+.qreg-field-realname .qreg-input-wrap{background-image: url(../img/icon_account.png)}
+.qreg-field-idnum .qreg-input-wrap{background-image: url(../img/icon_sfz.png)}
+.qreg-field-phone .qreg-input-wrap{background-image: url(../img/icon_phone.png)}
+/* button */
+.qreg-btns a,
+.qreg-succ-btn a{background: #ed4747}
+.qreg-succ-btn{ margin-top:20px;overflow: hidden;}
+.qreg-suc .qreg-btn-tobind{float:left;width:50%;}
+.qreg-suc .qreg-btn-back{float:right;width: 45%}
+.qreg-btn-tobind_email{ width:100%!important;}
+/* IE7 HACK */
