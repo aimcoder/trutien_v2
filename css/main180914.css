@@ -6,7 +6,7 @@ body {
   font-size: 12px;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
   background-image: url(../img/mainbg.jpg);
-  background-size: cover;
+  background-size: contain;
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
@@ -72,8 +72,8 @@ a:hover {
 .wm_public_zhuxian_logo_bg {
   position: absolute;
   z-index: 99998;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   width: 170px;
   height: 148px;
   background: url('../img/logo.png');
@@ -83,7 +83,6 @@ a:hover {
 .top_box {
   position: relative;
   width: 100%;
-  height: 600px;
   overflow: hidden;
 }
 
@@ -139,13 +138,6 @@ a:hover {
   color: #e90436 !important;
 }
 
-.jiabtn {
-  width: 620px;
-  height: 310px;
-  left: 40px;
-  top: 190px;
-}
-
 .video_box {
   position: absolute;
   left: 545px;
@@ -188,7 +180,6 @@ a:hover {
 .btn_box {
   background: #363737 url(../img/btns_bg.png) no-repeat;
   width: 290px;
-  margin: 0 auto;
 }
 
 .btn_down, .btn_down_a {
@@ -197,31 +188,19 @@ a:hover {
   background: url(../img/download.jpg);
 }
 
-.btn_reg, .btn_reg_a {
-  position: relative;
-  float: left;
+.btn_full_a,
+.btn_gift_a,
+.btn_store_a,
+.btn_reg_a {
+  height: 66px;
   width: 145px;
-  height: 69px;
-  overflow: hidden;
 }
 
-.btn_gift, .btn_gift_a {
-  position: relative;
-  float: right;
-  width: 145px;
-  height: 69px;
-  overflow: hidden;
-}
 
-.btn_full, .btn_full_a {
-  position: relative;
-  float: left;
-  width: 145px;
-  height: 69px;
-  overflow: hidden;
-}
-
-.btn_store, .btn_store_a {
+.btn_gift,
+.btn_full,
+.btn_reg,
+.btn_store {
   position: relative;
   float: right;
   width: 145px;
@@ -483,7 +462,7 @@ a:hover {
 }
 
 .tit_box {
-  padding: 10px 15px;
+  padding: 10px 0;
   height: 25px;
 }
 
@@ -509,7 +488,6 @@ a:hover {
 }
 
 .week_box {
-  width: 266px;
   margin: 10px auto 0;
 }
 
@@ -694,8 +672,6 @@ a:hover {
 }
 
 .view_cont {
-  width: 264px;
-  margin: 0 auto;
 }
 
 .view_tit {
@@ -712,7 +688,6 @@ a:hover {
 }
 
 .view_ul li {
-  width: 264px;
   height: 22px;
   padding: 2px 0 0;
   color: #656571;
@@ -746,7 +721,6 @@ a:hover {
 
 .view_links {
   margin-bottom: 7px;
-  width: 264px;
 }
 
 .vl_tit {
@@ -762,7 +736,6 @@ a:hover {
 .gvlinks {
   float: left;
   color: #63636e;
-  width: 200px;
   overflow: hidden;
 }
 
@@ -946,8 +919,8 @@ a:hover {
 }
 
 .role_intro {
-  width: 230px;
-  padding: 50px 0 0 40px;
+  width: 290px;
+  padding: 0;
   color: #63636e;
 }
 
@@ -982,15 +955,12 @@ a:hover {
 }
 
 .role_more {
-  display: block;
-  width: 83px;
-  height: 18px;
   background: #4fc7f0;
   color: #fff;
   font-size: 12px;
   text-align: center;
-  overflow: hidden;
   border-radius: 20px;
+  padding: 2px 5px;
 }
 
 
