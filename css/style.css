@@ -103,6 +103,11 @@
   margin-bottom: 3px;
 }
 
+.details img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 425px) {
   .top_nav,
   .wm_public_zhuxian_logo_bg,
